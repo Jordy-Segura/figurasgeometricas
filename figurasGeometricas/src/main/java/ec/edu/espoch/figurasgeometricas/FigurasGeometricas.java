@@ -15,6 +15,6 @@ public class FigurasGeometricas {
         System.out.println("Hello World!");
         System.out.println("HOLA");
         System.out.println("fine and you? for sapeishon");
-        System.out.println("pendejo");
+        System.out.println("YES");
     }
 }
