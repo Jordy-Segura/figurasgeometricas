@@ -11,4 +11,22 @@ package ec.edu.espoch.figurasgeometricas.figuras;
 public class Rectangulo {
     public float base;
     public float altura;
+
+    public Rectangulo() {
+
+    }
+
+    public Rectangulo(float base, float altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+    
+    public double calcularAreaRec() {
+        return base * altura;
+    }
+
+    public double calcularPerimetroRec() {
+        return 2 * (base + altura);
+    }
+    
 }
