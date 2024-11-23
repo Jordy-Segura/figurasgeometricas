@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.figurasgeometricas;
 
+import ec.edu.espoch.figurasgeometricas.figuras.Rectangulo;
+
 /**
  *
  * @author jordy
@@ -12,8 +14,8 @@ package ec.edu.espoch.figurasgeometricas;
 public class FigurasGeometricas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("HOLA");
+        Rectangulo objRectangulo=new Rectangulo();
+        
 
     }
 }
