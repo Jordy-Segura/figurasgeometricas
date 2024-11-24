@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.figurasgeometricas;
 
+import ec.edu.espoch.figurasgeometricas.figuras.Circulo;
+import ec.edu.espoch.figurasgeometricas.figuras.Cuadrado;
 import ec.edu.espoch.figurasgeometricas.figuras.Rectangulo;
 import ec.edu.espoch.figurasgeometricas.figuras.Triangulo;
 
@@ -30,6 +32,16 @@ public class FigurasGeometricas {
         System.out.println("Tipo de triángulo: " + objTriangulo.tipoTriangulo());
         
         
+        Circulo objCirculo = new Circulo(2);
+        Cuadrado objCuadrado =new Cuadrado (4);
+        
+        System.out.println("\nCirculo:");
+        System.out.println("Área: " + objCirculo.calcularAreaCir());
+        System.out.println("Perímetro: " + objCirculo.calcularPerimetroCir() );
+        
+        System.out.println("\nCuadrado:");
+        System.out.println("Área: " + objCuadrado.calcularAreaCua());
+        System.out.println("Perímetro: " + objCuadrado.calcularPerimetroCua());
         
     }
 }

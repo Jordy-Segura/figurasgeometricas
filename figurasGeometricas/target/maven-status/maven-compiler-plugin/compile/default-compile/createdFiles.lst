@@ -1,3 +1,5 @@
 ec\edu\espoch\figurasgeometricas\FigurasGeometricas.class
+ec\edu\espoch\figurasgeometricas\figuras\Circulo.class
 ec\edu\espoch\figurasgeometricas\figuras\Rectangulo.class
 ec\edu\espoch\figurasgeometricas\figuras\Triangulo.class
+ec\edu\espoch\figurasgeometricas\figuras\Cuadrado.class
