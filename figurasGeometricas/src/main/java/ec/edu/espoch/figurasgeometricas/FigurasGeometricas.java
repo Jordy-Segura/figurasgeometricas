@@ -28,5 +28,8 @@ public class FigurasGeometricas {
         System.out.println("Perímetro: " + objTriangulo.calcularPerimetroTri());
         System.out.println("Hipotenusa: " + objTriangulo.calcularHipotenusa());
         System.out.println("Tipo de triángulo: " + objTriangulo.tipoTriangulo());
+        
+        
+        
     }
 }
