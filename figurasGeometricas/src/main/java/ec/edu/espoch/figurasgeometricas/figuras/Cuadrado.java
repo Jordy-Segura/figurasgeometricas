@@ -13,18 +13,23 @@ public class Cuadrado {
     public double Lado;
 
     public Cuadrado() {
+        
     }
 
     public Cuadrado(double Lado) {
         this.Lado = Lado;
+        
     }
     
     public double calcularAreaCua(){
         return Lado * Lado ;
+        
     }
+    
     public double calcularPerimetroCua(){
         return 4 * Lado;
    
+        
     }
     
     
