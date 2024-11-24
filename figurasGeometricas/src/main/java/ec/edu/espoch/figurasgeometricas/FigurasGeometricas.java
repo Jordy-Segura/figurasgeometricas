@@ -17,6 +17,7 @@ import ec.edu.espoch.figurasgeometricas.figuras.Triangulo;
 public class FigurasGeometricas {
 
     public static void main(String[] args) {
+        //JORDY SEGURA            
         Rectangulo objRectangulo=new Rectangulo(4,6);      
         Triangulo objTriangulo=new Triangulo(8,5);
         
@@ -32,6 +33,7 @@ public class FigurasGeometricas {
         System.out.println("Tipo de triángulo: " + objTriangulo.tipoTriangulo());
         
         
+        //CARLA MANCERO
         Circulo objCirculo = new Circulo(2);
         Cuadrado objCuadrado =new Cuadrado (4);
         
